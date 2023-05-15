@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(187, 213, 238);
+}
+
+body .caixa-principal{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    gap: 10px;
+    width: 200px;
+    font-size: 15px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+body .caixa-principal .sobre{
+    font-family: 'Outfit';
+    font-weight: 400;
+}
+
+body .caixa-principal .sub-titulo{
+    font-family: 'Outfit';
+    font-weight: 700;
+}
+
+body .caixa-principal .qr-code-image{
+    border-radius: 10px;
+}
